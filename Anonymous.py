@@ -20,6 +20,23 @@ from email.headerregistry import UniqueSingleAddressHeader
 # In Situation Requiring Small,Throwaway Functions
 # Often Used With Function Like Map(),Reduce(), Filter()
 
+
+# add=lambda x,y:x+y
+# result=add(5,3)
+# print(result)
+
+# square=lambda x:x*x
+# result=square(4)
+# print(result)
+
+# Even=lambda x:x%2==0
+# result=Even(4)
+# print(result)
+
+# max_num=lambda x,y:x if x>y else y
+# result=max_num(10,11)
+# print(result)
+
 # add_lambda = lambda x,y : x-y
 #
 # print(add_lambda (8,3))
