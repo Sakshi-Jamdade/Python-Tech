@@ -16,8 +16,16 @@
 #
 # multiply(1,3,2,7)
 
-def decscribe_person(**kwargs):
-    for key,value in kwargs.items():
-        print(f"{key} : {value}")
+# def decscribe_person(**kwargs):
+#     for key,value in kwargs.items():
+#         print(f"{key} : {value}")
 
-decscribe_person(name="abc",age="25",city="Pune")
+# decscribe_person(name="abc",age="25",city="Pune")
+
+def mixed_args(*args,**kwargs):
+    print("Positional Arguments : ",args)
+    print("Keyword Arguments : ",kwargs)
+
+mixed_args(1,2,3,name="Sakshi",age="21",location="Pune")
+
+
