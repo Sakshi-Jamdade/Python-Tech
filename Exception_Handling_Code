@@ -1,0 +1,52 @@
+# try:
+#     num=int(input("Enter Number : "))
+#     result=10/num;
+#     print(result)
+# except ZeroDivisionError:
+#     print("Cant Divided by Zero")
+# except ValueError:
+#     print("Invalid Input")
+# except Exception as e:
+#     print(f"UnExpected Error Occured : {e}")
+--------------------------------------------------------------
+# import math
+# def Validate_age(age):
+#     if age<0:
+#         raise ValueError("Age Cant be Negative")
+#     return math.sqrt(age)
+
+# try:
+#     age=int(input("Enter Your Age : "))
+#     print(Validate_age(age))
+# except ValueError as e:
+#     print(f"Error : {e}")
+---------------------------------------------------------------
+# def Withdraw_Money(Balance,Amount):
+#     if Amount > Balance:
+#         raise Exception("Insufficient Balance ")
+#     return Balance - Amount
+#
+# try:
+#     Balance = 1000
+#     Amount = int(input("Enter Amount To Withdraw : "))
+#     print(f"New Balance : {Withdraw_Money(Balance,Amount)}")
+# except Exception as e:
+#     print(f"Error : {e} ")
+---------------------------------------------------------------
+# Basic Example : Division Calculator
+try:
+    num1 = int(input("Enter Num1 : "))
+    num2 = int(input("Enter Num2 : "))
+
+    result=num1/num2
+    print(f"The Result Of {num1}/{num2} Is :")
+
+except ZeroDivisionError:
+    print("Error : Cant Divide By Zero")
+except ValueError:
+    print("Invalid Input")
+except Exception as e:
+    print(f"Error : {e} ")
+---------------------------------------------------------------
+
+
